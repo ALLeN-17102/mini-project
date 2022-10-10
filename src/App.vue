@@ -13,8 +13,10 @@
     </div>
 
     <div>
-      <button  class="btn navbar" id="btn-1" ><router-link to="/login" class="navbar">Log in</router-link></button>
-      <button class="btn navbar" id="btn-2"><router-link to="/signup" class="navbar">Sign up</router-link></button>
+      <!-- <button  class="btn navbar tp" id="btn-1" ><router-link to="/login" class="navbar tp">Log in</router-link></button> -->
+      <router-link to="/login" class="navbar tp"><button  class="btn navbar tp" id="btn-1" >Log in</button></router-link>
+      <router-link to="/signup" class="navbar tp"><button  class="btn navbar tp" id="btn-1" >Sign up</button></router-link>
+      <!-- <button class="btn navbar tp" id="btn-2"><router-link to="/signup" class="navbar tp">Sign up</router-link></button> -->
     </div>
   </div>
 
@@ -35,7 +37,7 @@
   color: #2c3e50;
 }
 .navigation {
-  height: 80px;
+  
  
   /* border: 2px solid red; */
   display: flex;
@@ -61,6 +63,7 @@ nav a:hover {
   color: #a510ec;
   text-decoration: underline;
 }
+
 
 .container {
   background-image: url("../src/assets/Group 11.png");
@@ -103,18 +106,19 @@ nav a:hover {
   padding: 10px 20px;
   background-color: white;
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   /* text-decoration: none; */
 }
 #btn-2 {
-  border: none;
+  /* border: none; */
   border-radius: 5px;
   background-color: white;
   font-family: "Inter", sans-serif;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
+  
   /* text-decoration: none; */
 }
 #btn-1:hover {

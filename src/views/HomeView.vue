@@ -63,6 +63,7 @@
   color: #2c3e50;
 }
 .navigation {
+  height: 80px;
   /* border: 2px solid red; */
   display: flex;
   justify-content: flex-end;
@@ -83,6 +84,12 @@ nav a {
 nav a:hover {
   color: #a510ec;
   text-decoration: underline;
+}
+.tp{
+  color: black;
+}
+.tp:hover{
+  color: white;
 }
 
 .container {
@@ -126,7 +133,7 @@ nav a:hover {
   padding: 10px 20px;
   background-color: white;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
 }
 #btn-2 {
@@ -134,8 +141,10 @@ nav a:hover {
   background-color: white;
   font-family: "Inter", sans-serif;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
+  /* border: 1px; */
+  
 }
 #btn-1:hover {
   cursor: pointer;
@@ -143,6 +152,7 @@ nav a:hover {
   background-color: #a510ec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+
 #btn-2:hover {
   cursor: pointer;
   color: white;
