@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="box">
-      <h1 class="box-h1">WEBSITE NAMEEE</h1>
+      <h1 class="box-h1">WEBSITE NAME</h1>
       <p class="box-p">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
         reprehenderit earum fuga laudantium, maiores et esse voluptatem.

@@ -4,7 +4,7 @@
     <div>
       <nav>
         <router-link to="/" class="navbar">Home</router-link>
-        <router-link to="#" class="navbar">For Developers</router-link>
+        <router-link to="/about" class="navbar">For Developers</router-link>
         <router-link to="#" class="navbar">For Recruiter</router-link>
         <router-link to="#" class="navbar">Contact Us</router-link>
         <!-- <router-link :to="{name :'about'}">About</router-link> -->
@@ -35,13 +35,18 @@
   color: #2c3e50;
 }
 .navigation {
+  height: 80px;
+ 
   /* border: 2px solid red; */
   display: flex;
   justify-content: flex-end;
 }
 .navbar {
   margin: 10px 10px;
+  text-decoration: none;
+  
 }
+
 nav {
   padding: 20px;
   font-size: 20px;
@@ -98,16 +103,19 @@ nav a:hover {
   padding: 10px 20px;
   background-color: white;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
+  /* text-decoration: none; */
 }
 #btn-2 {
+  border: none;
   border-radius: 5px;
   background-color: white;
   font-family: "Inter", sans-serif;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
+  /* text-decoration: none; */
 }
 #btn-1:hover {
   cursor: pointer;
@@ -115,9 +123,15 @@ nav a:hover {
   background-color: #a510ec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+/* #btn-1:active{
+  color: white;
+} */
 #btn-2:hover {
   cursor: pointer;
   color: white;
   background-color: #a510ec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
-}</style>
+
+}
+
+</style>

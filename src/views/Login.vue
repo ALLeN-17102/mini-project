@@ -25,7 +25,7 @@
                     <p class="box2-p">Sign up and discover a great ART collection!!</p>
                 </div>
                 <div>
-                    <a href="register.html"><button class="box2-btn">Sign In</button></a>
+                    <a href="/Sigin.vue"><button class="box2-btn">Sign In</button></a>
                 </div>
 
             </div>
@@ -39,6 +39,7 @@
 }
 
 .container{
+    
     display: flex;
 }
 
@@ -48,6 +49,7 @@
     width: 65%;
     height: 100vh;
     /* border: 2px solid red;    */
+    background-color:white ;
 }
 .section1-h1{
     
